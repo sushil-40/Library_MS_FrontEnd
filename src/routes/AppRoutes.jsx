@@ -14,9 +14,9 @@ import {
   UserPage,
   Profile,
   BorrowPage,
-} from "../pages";
-import DefaultLayout from "../components/layouts/DefaultLayout";
-import UserLayout from "../components/layouts/UserLayout";
+} from "@pages";
+import DefaultLayout from "@components/layouts/DefaultLayout"; // using alias @
+import UserLayout from "@components/layouts/UserLayout";
 
 const AppRoutes = () => {
   return (
