@@ -27,7 +27,7 @@ const AppRoutes = () => {
         <Route index element={<HomePage />}></Route>
         <Route path="signup" element={<SignUpPage />}></Route>
         <Route path="login" element={<SignInPage />}></Route>
-        <Route path="forget-assword" element={<ForgetPasswordPage />}></Route>
+        <Route path="forget-password" element={<ForgetPasswordPage />}></Route>
       </Route>
 
       {/* private pages  */}
